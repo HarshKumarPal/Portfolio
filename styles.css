@@ -1,0 +1,240 @@
+/* Add your CSS here */
+
+/* Basic reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  color: #000;
+}
+
+.navbar {
+  background-color: #000;
+}
+
+.navbar .navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero .slider-item {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero .slider-item .text {
+  color: #fff;
+  max-width: 600px;
+}
+
+.hero .slider-item .text h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hero .slider-item .text h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.hero .slider-item .text .btn {
+  margin-top: 1rem;
+}
+
+.img-about {
+  position: relative;
+}
+
+.img-about .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-about .about-img {
+  position: relative;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.about-info p {
+  margin-bottom: 0.5rem;
+}
+
+.skill-mf .progress {
+  height: 20px;
+  margin-bottom: 1rem;
+}
+
+.skill-mf .progress-bar {
+  background: #000;
+}
+
+.ftco-about .about-info {
+  margin-top: 2rem;
+}
+
+.counter-wrap {
+  margin-top: 2rem;
+}
+
+.counter-wrap .text {
+  background: #000;
+  color: #fff;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.counter-wrap .number {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.counter-wrap span {
+  font-size: 1rem;
+}
+
+.footer {
+  padding: 4rem 0;
+  background: #000;
+  color: #fff;
+}
+
+.footer .ftco-footer-widget {
+  margin-bottom: 2rem;
+}
+
+.footer .ftco-footer-widget h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.footer .ftco-footer-widget ul {
+  list-style: none;
+}
+
+.footer .ftco-footer-widget ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer .ftco-footer-widget ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.footer .ftco-footer-widget ul li a:hover {
+  color: #F96D00;
+}
+
+.footer .ftco-footer-social {
+  margin-top: 1rem;
+}
+
+.footer .ftco-footer-social li {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.footer .ftco-footer-social li a {
+  color: #fff;
+  font-size: 1.5rem;
+  transition: all 0.3s;
+}
+
+.footer .ftco-footer-social li a:hover {
+  color: #F96D00;
+}
+
+.footer .block-23 ul {
+  list-style: none;
+}
+
+.footer .block-23 ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer .block-23 ul li span {
+  display: block;
+}
+
+.footer .block-23 ul li .icon {
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+.footer .block-23 ul li .text {
+  font-size: 1rem;
+}
+
+.footer p {
+  margin-top: 2rem;
+  font-size: 0.875rem;
+}
+
+#ftco-loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#ftco-loader svg {
+  animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
